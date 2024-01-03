@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Horizontal */
+    justify-content: center; /* Vertical */
+    background-color: #f4f4f4;
+}
+
+.profile-card{
+    max-width: 350px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 3px;
+    
+}
+
+.image .profile-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.text-data .name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.media-buttons{
+    display: flex;
+    text-decoration: none;
+}
+.media-buttons .link{
+    display: flex;
+    font-size: 20px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+}
+abbr{
+    text-decoration: none;
+}
